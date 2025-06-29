@@ -13,11 +13,16 @@ if (!projectName) {
 const targetDir = resolve(process.cwd(), projectName)
 const templateDir = resolve(import.meta.url.replace('file://', ''), '../template')
 
-console.log(`🚀 Creando proyecto en ./${projectName}…`)
+console.log(`Ajustando configuraciones...`)
+console.log('\n')
+
 copy(templateDir, targetDir)
   .then(() => {
-    console.log('✅ ¡Listo! Ejecuta:')
-    console.log(`  cd ${projectName} && npm install && npm run dev`)
+    console.log('🌱 Ajustando configuraciones...')
+    console.log('🪴 ¡Todo listo!')
+    console.log('\n')
+    console.log('🍂 Ejecuta el siguiente comando y ¡happy codding!')
+    console.log(`cd ${projectName} && npm install && npm run dev`)
   })
   .catch((err) => {
     console.error('❌ Error al copiar la plantilla:', err)
