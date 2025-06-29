@@ -1,0 +1,15 @@
+{
+  "name": "create-minimalize-template",
+  "version": "1.0.0",
+  "description": "Initializer para proyectos Vite + React con mi configuración",
+  "bin": {
+    "create-minimalize-template": "cli.js"
+  },
+  "files": [
+    "template/**/*",
+    "cli.js"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
