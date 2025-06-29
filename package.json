@@ -1,6 +1,6 @@
 {
   "name": "create-minimalize-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Initializer para proyectos Vite + React con mi configuración",
   "bin": {
     "create-minimalize-template": "cli.js"
